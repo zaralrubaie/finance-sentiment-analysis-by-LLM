@@ -27,6 +27,10 @@ cd financial-sentiment-llm
 2. Install dependencies:
 pip install -r requirements.txt
 
+3. ## Run in Colab
+You can run this project interactively in Google Colab using the following link:
+[Open in Colab](https://colab.research.google.com/drive/1SzY3pNrJ6Myvv5Rih1ZKdULVfveG26C0)
+
 Usage:
 run : python sentiment_classifier.py
 
