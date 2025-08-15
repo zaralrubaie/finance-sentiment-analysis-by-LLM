@@ -23,12 +23,9 @@ Installation & Setup:
 1. Clone the repository
 git clone https: https://github.com/zaralrubaie/finance-sentiment-analysis-by-LLM/edit/main/README.md
 cd financial-sentiment-llm
-git add .
-git commit -m "Initial commit - financial sentiment LLM project"
-git push origin main
 
 2. Install dependencies
-pip install -r requirements.txt
+!pip install -r requirements.txt
 
 Usage:
 run : python sentiment_classifier.py
