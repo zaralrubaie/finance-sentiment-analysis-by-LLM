@@ -5,23 +5,23 @@ This project is a financial sentiment analysis system built with a small languag
 Motivation
 Financial sentiment analysis is critical in understanding market trends, investor sentiment, and news impact. Automating this process can help analysts and investors make faster and more informed decisions.
 
-Dataset
+Dataset:
 The dataset consists of financial sentences and their corresponding sentiment labels.
 Columns:
 Sentence: The text of a financial statement or news headline.
 Sentiment: Encoded label (positive, neutral, negative).
 
 Project Features
-Uses DistilBERT, a lightweight transformer model, for text classification.
-Splits data into training, validation, and test sets.
-Fine-tunes the pretrained model on the financial sentiment dataset.
-Provides evaluation metrics (accuracy, loss) after training.
-Includes a Gradio web interface for interactive testing of new financial sentences.Its a temperory link for one week only,can be updated later.
-Fully portable Python script for easy deployment and experimentation.
+1. Uses DistilBERT, a lightweight transformer model, for text classification.
+2. Splits data into training, validation, and test sets.
+3. Fine-tunes the pretrained model on the financial sentiment dataset.
+4. Provides evaluation metrics (accuracy, loss) after training.
+5. Includes a Gradio web interface for interactive testing of new financial sentences.Its a temperory link for one week only,can be updated later.
+6. Fully portable Python script for easy deployment and experimentation.
 
 Installation & Setup:
 1. Clone the repository:
-git clone https: https://github.com/zaralrubaie/finance-sentiment-analysis-by-LLM/edit/main/README.md
+git clone https://github.com/zaralrubaie/finance-sentiment-analysis-by-LLM.git
 cd financial-sentiment-llm
 
 2. Install dependencies:
@@ -36,9 +36,9 @@ Example sentences for testing:
 "Investors are worried about rising inflation rates."  # → neutral
 
 Skills Demonstrated:
-NLP / Text Classification
-Transformers / Hugging Face
-Model Fine-tuning
-Data Preprocessing (train-test-val split, tokenization)
-Evaluation Metrics & Model Interpretation
-Basic Deployment with Gradio
+1.NLP / Text Classification
+2.Transformers / Hugging Face
+3.Model Fine-tuning
+4.Data Preprocessing (train-test-val split, tokenization)
+5.Evaluation Metrics & Model Interpretation
+6.Basic Deployment with Gradio
